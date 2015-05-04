@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; 
+charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="CALIDRO MORELLO" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" 
+href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" 
+href="<{$xoops_themecss}>" />
+<link rel="stylesheet" href="http://tunalife.zxq.net/online/themes/round/lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://tunalife.zxq.net/online/themes/round/iconize.css" type="text/css" media="screen" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<script src="http://tunalife.zxq.net/online/themes/round/js/prototype.js" type="text/javascript"></script>
+<script src="http://tunalife.zxq.net/online/themes/round/js/scriptaculous.js?load=effects" type="text/javascript"></script>
+<script src="http://tunalife.zxq.net/online/themes/round/js/lightbox.js" type="text/javascript"></script>
+<script src="http://tunalife.zxq.net/online/themes/round/js/dhtml.js" type="text/javascript"></script>
+<!--<script src="http://tunalife.zxq.net/online/themes/round/js/prototype.lite.js" type="text/javascript"></script>-->
+<script src="http://tunalife.zxq.net/online/themes/round/js/smoothscroll.js" type="text/javascript"></script>
+<a name="top"></a>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Tunalife</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=647,height=443,left = 411,top = 322');");
+}
+// End -->
+</script>
+<div id="menu">
+	<ul>
+		<li class="first"><a href="http://tunalife.zxq.net/online/" accesskey="M" title=""><b>M</b>ain</a></li>
+		<li><a href="<{$xoops_url}>/modules/news/">News </a></li>
+<li><a href="<{$xoops_url}>/modules/xcgal/">Gallery</a></li>
+<li><a href="<{$xoops_url}>/modules/mylinks">Links</a></li>
+<li><a href="#">Ideas</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="http://tunalife.zxq.net/online/modules/contact_plus/">Contact Us</a></li>
+<li><a href="http://del.icio.us/post" onclick="window.open('http://del.icio.us/post?v=4&noui&jump=close&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=700,height=400'); return false;"> <img src="<{$xoops_imageurl}>images/delicious.gif"title="Save this page"></a></li>
+	</ul>
+</div>
+<div id="logo">
+	
+</div>
+<div id="page">
+	<div id="maincontent">
+<{if $xoops_contents}>
+<div id="content">
+<{$xoops_contents}>
+</div>
+<{/if}>
+
+					<{if $xoops_showcblock == 1}>
+
+					<{foreach item=block from=$xoops_ccblocks}>
+					<h2 class="title"><{$block.title}></h2>
+						<{$block.content}>
+					<{/foreach}>
+
+					<{foreach item=block from=$xoops_clblocks}>
+					<h2 class="title"><{$block.title}></h2>
+						<{$block.content}>
+					<{/foreach}>
+
+					<{foreach item=block from=$xoops_crblocks}>
+					<h2 class="title"><{$block.title}></h2>
+						<{$block.content}>
+					<{/foreach}>
+
+					<{/if}>
+	</div>
+	<!-- end #content -->
+	<div id="leftcolumn">
+		<div id="links">
+			<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<div class="blockTitle"><{$block.title}></div>
+<div class="blockContent"><{$block.content}></div>
+<{/foreach}>
+<!-- End left blocks loop -->
+		</div>
+		<div>
+			<h2>Fishing</h2>
+			<blockquote>
+				<p>There is nothing like the thriller of chasing a tuna school and be ready to set, then the adrenaline begin to flow....</p>
+			</blockquote>
+		</div>
+		<!-- Start right blocks loop -->
+		<div id="rightcolumn">
+<div id="right1">
+
+<a href="http://tunalife.zxq.net/online/modules/xcgal/displayimage.php?pid=1&album=1&pos=0" class="jobBanner"></a>
+
+<h2>are you a<span> fisherman?</span></h2><br>
+
+<a href="http://tunalife.zxq.net/online/modules/news/submit.php" class="rightLogo"></a><br />
+
+</div>
+
+	<{foreach item=block from=$xoops_rblocks}>
+<div class="blockTitle"><{$block.title}></div>
+<div class="blockContent"><{$block.content}></div>
+<{/foreach}><br />
+<!--<img src="<{$xoops_imageurl}>images/right_bottom.gif">-->
+<!-- End right blocks loop -->		
+		</div>
+	</div>
+	<!-- end #sidebar -->
+	<div style="clear: both; height: 1px;"></div>
+</div>
+<!-- end #page -->
+<div id="footer">
+	<div class="wrapper">
+		<p class="links"><{if $xoops_isuser}><a href="<{$xoops_url}>/admin.php"><img border="0" src="<{$xoops_imageurl}>images/llave.gif"></a><a href="<{$xoops_url}>/user.php?op=logout"><img border="0" src="<{$xoops_imageurl}>images/salir.gif"></a><{else}><a href="<{$xoops_url}>/user.php"><img border="0" src="<{$xoops_imageurl}>images/candadito.gif"></a><{/if}>  <a href="http://tunalife.zxq.net/cpanel"><img border="0" src="<{$xoops_imageurl}>images/cpanel.gif"></a>  <{$xoops_footer}>|Development & Maintenance:<A HREF="http://tunalife.zxq.net/online/modules/contact_plus/">Calidro Morello</a></p>
+		<p class="legal"><{if $xoops_isadmin != 1}>
+	          <script type="text/Javascript">
+					  <!--
+					  istat = new Image(1,1);
+					  istat.src = "http://tunalife.zxq.net/online/modules/istats/include/counter.php?sw="+screen.width+"&sc="+screen.colorDepth+"&refer="+escape(document.referrer)+"&page="+location.href;
+					  //-->
+					  </script>
+					<{/if}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#top"><img src="http://tunalife.zxq.net/online/images/arrow_up.gif"border="0"></a>   </p>
+	</div>
+</div>
+<script type="text/javascript" src="http://shots.snap.com/snap_shots.js?ap=1&amp;key=42fa8659afbd5a04d70ae32508545409&amp;sb=1&amp;th=silver&amp;cl=0&amp;si=0&amp;po=0&amp;df=0&amp;oi=0&amp;link_icon=on&amp;shots_trigger=both&amp;lang=en-us&amp;domain=tunalife.zxq.net/online/&amp;as=1"></script>
+</body>
+</html>
